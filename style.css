@@ -1,0 +1,46 @@
+body {
+        font-family: poppins;
+        display: flex;
+        height: 100vh;
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #070a09;
+        margin: 0;
+        transition: background-color 0.3s ease;
+      }
+      #container {
+        display: flex;
+        flex-direction: column;
+        background-color: #aac2be;
+        gap: 20px;
+        padding: 20px;
+        border-radius: 20px;
+        width: 300px;
+        height: 300px;
+        align-items: center;
+        justify-content: center;
+      }
+      input {
+        width: 250px;
+        height: 40px;
+        border: none;
+        border-radius: 5px;
+        text-align: center;
+      }
+      select {
+        height: 40px;
+        font-family: poppins;
+        border: none;
+        background-color: #464860;
+        border-radius: 10px;
+        padding: 5px;
+        color: #eef3f2;
+      }
+      #message {
+        text-align: center;
+      }
+      #description {
+        color: white;
+      }
