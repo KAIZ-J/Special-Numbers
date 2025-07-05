@@ -44,3 +44,8 @@ body {
       #description {
         color: white;
       }
+      h2{
+        background: linear-gradient(to bottom,rgb(146, 144, 144),rgb(29, 28, 29));
+        color: transparent;
+        background-clip: text;
+      }

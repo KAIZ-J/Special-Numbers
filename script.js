@@ -392,7 +392,7 @@
   spy: "Sum of digits equals product of digits.",
   abundant: "Sum of proper divisors is greater than the number."
 };
-document.getElementById("description").innerHTML = defs[selection.value] || "";
+document.getElementById("description").innerHTML = defs[selection.value] || "You can find descriptions here";
 
       }
       document.getElementById("select").addEventListener("change", work);
