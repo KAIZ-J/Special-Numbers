@@ -13,7 +13,8 @@ body {
       #container {
         display: flex;
         flex-direction: column;
-        background-color: #aac2be;
+        background-color:#43346a;
+        color: #ecf7f0;
         gap: 20px;
         padding: 20px;
         border-radius: 20px;
@@ -21,6 +22,7 @@ body {
         height: 300px;
         align-items: center;
         justify-content: center;
+        box-shadow: 0px 0px 15px #43346a;
       }
       input {
         width: 250px;
@@ -28,24 +30,30 @@ body {
         border: none;
         border-radius: 5px;
         text-align: center;
+        outline: none;
+        font-family: poppins;
       }
       select {
         height: 40px;
         font-family: poppins;
         border: none;
-        background-color: #464860;
+        background-color: #8d71ba;
         border-radius: 10px;
         padding: 5px;
         color: #eef3f2;
+        outline: none;
+        text-align: center;
       }
       #message {
         text-align: center;
       }
       #description {
         color: white;
+        text-align: center;
+        text-wrap: balance;
       }
       h2{
-        background: linear-gradient(to bottom,rgb(146, 144, 144),rgb(29, 28, 29));
+        background: linear-gradient(to bottom,#8d71ba,#9cafce);
         color: transparent;
         background-clip: text;
       }
